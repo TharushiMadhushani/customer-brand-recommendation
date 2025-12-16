@@ -1,0 +1,11 @@
+Age,AnnualIncome,PurchaseAmount,PurchaseFrequency,LoyaltyScore,Recommend
+22,25000,200,2,45,No
+25,32000,350,3,55,No
+30,40000,500,4,65,Yes
+35,52000,800,6,75,Yes
+40,60000,1000,7,82,Yes
+45,68000,1300,9,88,Yes
+50,75000,1500,10,92,Yes
+28,36000,420,4,60,No
+33,48000,750,6,70,Yes
+38,58000,980,7,80,Yes
