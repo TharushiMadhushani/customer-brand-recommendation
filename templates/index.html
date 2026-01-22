@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Brand Recommendation</title>
+</head>
+<body>
+    <h2>Customer Brand Recommendation System</h2>
+
+    <form action="/predict" method="post">
+        <input type="number" name="Age" placeholder="Age" required><br><br>
+        <input type="number" name="AnnualIncome" placeholder="Annual Income" required><br><br>
+        <input type="number" name="PurchaseAmount" placeholder="Purchase Amount" required><br><br>
+        <input type="number" name="PurchaseFrequency" placeholder="Purchase Frequency" required><br><br>
+        <input type="number" name="LoyaltyScore" placeholder="Loyalty Score" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
